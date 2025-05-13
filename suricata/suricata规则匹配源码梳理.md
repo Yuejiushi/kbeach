@@ -2325,11 +2325,11 @@ DetectRunTx 下，tx预过滤之后，就进入到：
 
 正常的mysql：
 
-![image-20241008184027540](../../typora-image/image-20241008184027540.png)
+![image-20241008184027540](../typora-image/image-20241008184027540.png)
 
 db的匹配：
 
-![image-20241008184054774](../../typora-image/image-20241008184054774.png)
+![image-20241008184054774](../typora-image/image-20241008184054774.png)
 
 
 

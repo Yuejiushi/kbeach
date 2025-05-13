@@ -88,7 +88,7 @@ FlowWorker就是当时注册的flow work slot
 
 autofp在多网卡情况下，因为是会共用几个fw线程，所以在pkt入队列时是需要上锁的。但改成pipe时，就可以无锁入队列。
 
-<img src="../../typora-image/image-20250103184129677.png" alt="image-20250103184129677" style="zoom: 80%;" />
+<img src="../typora-image/image-20250103184129677.png" alt="image-20250103184129677" style="zoom: 80%;" />
 
 
 
@@ -1849,7 +1849,7 @@ OutputFilestoreLogger
 
 yaml配置：该配置在sdx的修改种已经进行了剔除
 
-![image-20250422162542591](../../typora-image/image-20250422162542591.png)
+![image-20250422162542591](../typora-image/image-20250422162542591.png)
 
 文件还原的流程关键点：以pop3为例子
 
@@ -2749,7 +2749,7 @@ FlowForceReassemblyPseudoPacketSetup 	#超时传输伪造包
 wireshark\resources\protocols\diameter\dictionary.xml
 ```
 
-![image-20241212192151850](../../typora-image/image-20241212192151850.png)
+![image-20241212192151850](../typora-image/image-20241212192151850.png)
 
 ##### 5.6 libline编译使用
 
@@ -2766,14 +2766,14 @@ cp ./liblineconverter.a /home/wangchen/suricata-sprt/suricata/3rd/x86_64/linecon
 
 修改编译项目路径：
 
-![image-20250107150130249](../../typora-image/image-20250107150130249.png)
+![image-20250107150130249](../typora-image/image-20250107150130249.png)
 
 重新编译rust服务：
-![image-20250107150214833](../../typora-image/image-20250107150214833.png)
+![image-20250107150214833](../typora-image/image-20250107150214833.png)
 
 重启rust-Analyzer服务：
 
-![image-20250107150318880](../../typora-image/image-20250107150318880.png)
+![image-20250107150318880](../typora-image/image-20250107150318880.png)
 
 
 
@@ -2791,14 +2791,14 @@ cbindgen --config cbindgen.toml --output ./dist/rust-bindings.h
 
 ##### 5.9 even-log启动stats问题
 
-![image-20250110150033284](../../typora-image/image-20250110150033284.png)
+![image-20250110150033284](../typora-image/image-20250110150033284.png)
 
 直接关闭对应stats开关即可：(两个地方)
 
 添加一个enable开关：关闭
 
-![image-20250110151120276](../../typora-image/image-20250110151120276.png)
+![image-20250110151120276](../typora-image/image-20250110151120276.png)
 
 关闭总的status开关：
 
-![image-20250110151147380](../../typora-image/image-20250110151147380.png)
+![image-20250110151147380](../typora-image/image-20250110151147380.png)

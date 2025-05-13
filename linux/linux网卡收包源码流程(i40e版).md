@@ -402,7 +402,7 @@ static int napi_kthread_create(struct napi_struct *n)
 (9) 硬中断的方式并非一无是处：
 ```
 
-<img src="../../typora-image/image-20231020161755782.png" alt="image-20231020161755782" style="zoom: 67%;" />
+<img src="../typora-image/image-20231020161755782.png" alt="image-20231020161755782" style="zoom: 67%;" />
 
 ```apl
 (10) 今天的大部分网卡都使用 DMA 将数据直接写到内存，接下来操作系统可以直接从里 面读取。实现这一目的所使用的数据结构就是
