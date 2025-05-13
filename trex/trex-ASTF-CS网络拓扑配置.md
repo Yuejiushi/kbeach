@@ -23,7 +23,7 @@ src/dst IP
 
 拓扑配置如下：
 
-<img src="C:\Users\25315\typora-image\image-20250328210607078.png" alt="image-20250328210607078" style="zoom:20%;" />
+<img src="../typora-image\image-20250328210607078.png" alt="image-20250328210607078" style="zoom:20%;" />
 
 ```apl
 # 说明：
@@ -187,11 +187,11 @@ def register():
 
 (59)trex-client：
 
-![image-20250328211257402](C:\Users\25315\typora-image\image-20250328211257402.png)
+![image-20250328211257402](../typora-image\image-20250328211257402.png)
 
 (32)trex-server：
 
-![image-20250328211334115](C:\Users\25315\typora-image\image-20250328211334115.png)
+![image-20250328211334115](../typora-image\image-20250328211334115.png)
 
 
 

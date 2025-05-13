@@ -220,7 +220,7 @@ vi /etc/selinux/config // SELINUX=disabled
 ## 之后重启电脑
 ```
 
-![image-20240710182648920](C:\Users\25315\typora-image\image-20240710182648920.png)
+![image-20240710182648920](../typora-image\image-20240710182648920.png)
 
 ## 六、34的redis设置
 
@@ -261,7 +261,7 @@ redis-cli -h 192.168.69.34 -p 6379 -a 3odh2ucbh
 ## 异步机制种不需要释放 reply 对象，hiredis的异步机制会自动释放.
 ```
 
-![image-20240330171805409](C:\Users\25315\typora-image\image-20240330171805409.png)
+![image-20240330171805409](../typora-image\image-20240330171805409.png)
 
 
 
@@ -371,7 +371,7 @@ timedatectl set-timezone Asia/Shanghai
 判断设备是否开启的逻辑就是，用最近的upTime（运行上报时间）与当前时间做差值，超过两倍间隔就认为是关闭了(30*2)
 ```
 
-<img src="C:\Users\25315\typora-image\image-20240807170558556.png" alt="image-20240807170558556" style="zoom:50%;" />
+<img src="../typora-image\image-20240807170558556.png" alt="image-20240807170558556" style="zoom:50%;" />
 
 
 
