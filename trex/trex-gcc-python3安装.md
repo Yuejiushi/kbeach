@@ -281,7 +281,7 @@ default_hugepagesz=1G hugepagesz=1G hugepages=180
 // 如果只做发包器，则单向配置即可 dummy
 ```
 
-![image-20230804142401468](../typora-image\image-20230804142401468.png)
+![image-20230804142401468](../typora-image/image-20230804142401468.png)
 
 ```less
 

@@ -42,7 +42,7 @@
 
 #### 1、main()起始：
 
-<img src="../typora-image\image-20231012104318847.png" alt="image-20231012104318847" style="zoom:50%;" />
+<img src="../typora-image/image-20231012104318847.png" alt="image-20231012104318847" style="zoom:50%;" />
 
 #### 2、参数处理：
 
